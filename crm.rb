@@ -18,6 +18,10 @@ require 'sinatra'
       erb :contacts
     end
 
+    get '/contacts/new' do
+
+      erb :new
+    end
     get '/contacts/:id' do
     @contact = Contact.find_by(id: params[:id].to_i)
     if @contact
@@ -25,12 +29,4 @@ require 'sinatra'
     else
       raise Sinatra::NotFound
     end
-
-
-
-
-
-
-
-
     end
