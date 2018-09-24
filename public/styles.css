@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  max-width: 100%;
+  font-family: arial;
+  box-sizing: border-box;
+}
+
+header h1 {
+color: white;
+background-color: rgb(44, 46, 45);
+text-align: center;
+padding: 20px;
+font-weight: bold;
+width: 100%;
+}
+
+header ul {
+  padding: 0;
+}
+
+header ul li {
+  list-style-type: none;
+  background-color: rgba(47, 66, 9, 0.25);
+  text-align: center;
+  padding: 20px;
+  margin: 1px 0 1px 0;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: orange;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+}
+
+main h2 {
+  width: 100%;
+  background-color: rgb(241, 116, 116);
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+main span {
+  border-bottom: 3px solid rgb(20, 230, 173);
+}
+
+
+main .contacts {
+  clear:both;
+  background-color: rgb(41, 199, 189);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  list-style-type: none;
+  padding: 40px;
+
+}
+
+main .contacts ul {
+  padding: 0;
+}
+
+main .contacts ul li {
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+main .contacts .link ul li{
+  display: inline-block;
+  font-size: 18px;
+}
+
+footer {
+background-color: black;
+position: absolute;
+text-align: center;
+width:100%;
+display: block;
+padding: 15px;
+color: white;
+}
